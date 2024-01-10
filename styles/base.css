@@ -50,15 +50,29 @@ main {
 }
 
 .card {
+    background-color: white;
     border: 1px solid black;
-    padding: 1rem;
+    /* padding: 1rem; */
     margin: 1rem;
+
+}
+.card-header {
+    background-color: rgb(3, 127, 177);
+    padding: 1rem;
 }
 h1, h2 {
     text-align: center;
 }
+h2 {
+    color: white;
+    margin: 0 auto;
+
+}
 li {
     list-style-type: none;
+}
+.info {
+    padding: 1rem;
 }
 
 footer {
@@ -79,20 +93,3 @@ footer {
 
 
 
-@media screen and (max-width: 640px) {
-    nav, footer{
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .card{
-        grid-column: 1/2;
-    }
-
-}
