@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jennifer Tompkins - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development | Jennifer Tompkins | Course Assignment Portal">
-    <meta name="author">
+    <meta name="author" content="Jennifer Tompkins">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <header>
-        <img src="" alt="profile image">
-        <span>Jennifer Tompkins</span>
+        <img src="images/profile.jpg" alt="Jennifer Tompkins Profile" width="75" height="100">
+        <span id="name">Jennifer Tompkins</span>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -23,7 +28,22 @@
         <section class="card">
             <h2>Learning Activities</h2>
             <ul>
-                <li>
+                <li>Week 01:
+                    <a href=""></a>
+                </li>
+                <li>Week 02:
+                    <a href=""></a>
+                </li>
+                <li>Week 03:
+                    <a href=""></a>
+                </li>
+                <li>Week 04:
+                    <a href=""></a>
+                </li>
+                <li>Week 05:
+                    <a href=""></a>
+                </li>
+                <li>Week 06:
                     <a href=""></a>
                 </li>
             </ul>
@@ -35,7 +55,11 @@
         </section>
     </main>
     <footer>
-        <p>&copy</p>
+        <p>&copy; <span id="year"></span> Jennifer Tompkins | United States</p>
+        <p id="lastModified">Last Modified:</p>
     </footer>
+    <script>
+        document.querySelector("#year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
