@@ -22,7 +22,7 @@ img {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(3, 127, 177);
+    background-color: rgb(1, 95, 130);
     font-size: 22px;
 }
 nav a {
@@ -57,7 +57,7 @@ main {
 
 }
 .card-header {
-    background-color: rgb(3, 127, 177);
+    background-color: rgb(1, 95, 130);
     padding: 1rem;
 }
 h1, h2 {
@@ -70,9 +70,11 @@ h2 {
 }
 li {
     list-style-type: none;
+    font-size: 20px;
 }
 .info {
     padding: 1rem;
+    font-size: 20px;
 }
 
 footer {
