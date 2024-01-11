@@ -23,7 +23,7 @@ header, h1, h2, h3, .font1 {
     font-family: 'Kanit', sans-serif;
 }
 .primary {
-    background-color: #002b60;
+    background-color: #033e87;
     color: white;
 }
 .secondary-table {
@@ -37,7 +37,7 @@ header, h1, h2, h3, .font1 {
     color: #4A3C31;
 }
 header {
-    background-color: #002b60;
+    background-color: #033e87;
     color: white;
     text-align: center;
     padding: 1rem;
