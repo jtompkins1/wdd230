@@ -22,7 +22,8 @@ img {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(1, 95, 130);
+    background-color: rgb(2, 82, 135);
+    /* background-color: rgba(53, 117, 159); equivalent to adding white 20% transparancy, used to test contrast during hover, meets WCAG AA standards */
     font-size: 1.3rem;
 }
 nav a {
@@ -32,9 +33,8 @@ nav a {
     padding: 1rem;
 }
 nav a:hover {
-    background-color: rgba(255,255,255, 0.2);
-    /* color: white; */
-
+    background-color: rgba(225, 225, 225, 0.2);
+    /* background-color: rgba(53, 117, 159); */
 }
 nav .active {
     background-color: #1c0258;
@@ -95,6 +95,8 @@ footer {
 #lastModified {
     color: yellow;
 }
-
+/* img {
+    max-width: 60%;
+} */
 
 
