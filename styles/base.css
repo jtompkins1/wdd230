@@ -9,7 +9,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    font-size: 1.6rem;
     
 }
 #name {
@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: rgb(1, 95, 130);
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 nav a {
     text-align: center;
@@ -32,10 +32,11 @@ nav a {
     padding: 1rem;
 }
 nav a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgba(255,255,255, 0.2);
+    /* color: white; */
+
 }
-nav a:active {
+nav .active {
     background-color: #1c0258;
 }
 h1 {
@@ -51,14 +52,21 @@ main {
 
 .card {
     background-color: white;
-    border: 1px solid black;
-    /* padding: 1rem; */
+    border: 2px solid black;
     margin: 1rem;
+    border-radius: 10px;
 
 }
 .card-header {
     background-color: rgb(1, 95, 130);
-    padding: 1rem;
+    padding: .5rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+.card a {
+    padding: .5rem;
+
 }
 h1, h2 {
     text-align: center;
@@ -70,27 +78,22 @@ h2 {
 }
 li {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .info {
     padding: 1rem;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 footer {
-    display: flex;
+    display: block;
     background-color: rgb(97, 50, 207);
     color: white;
     text-align: center; 
-    /* align-items: center; */
-    /* justify-content: center; */
-    flex-direction: column;
-    /* justify-content: space-around; */
-    /* margin: 0 auto; */
+    padding: 0.5rem;
 }
 #lastModified {
     color: yellow;
-    /* padding-top: none; */
 }
 
 
