@@ -19,15 +19,30 @@ header, h1, h2, h3, .font1 {
 .font2, p, th, td {
     font-family: 'Kanit', sans-serif;
 }
-.primary {
+header {
     background-color: #033e87;
     color: white;
 }
 .secondary-table {
     background-color: #D8D4D8;
     color: black;
+    padding: 1rem;
 }
+.primary-table {
+    background-color: #033e87;
+    color: white;
+    padding: 1rem;
+}
+.primary {
+    color: #033e87;
+}
+.header {
+    color: white;
+}
+h2, h3, h4 {
+    color: #033e87;
 
+}
 header {
     background-color: #033e87;
     color: white;
