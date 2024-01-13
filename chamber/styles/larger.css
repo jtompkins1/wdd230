@@ -36,13 +36,8 @@
     #menu.open::before {
         content: "<<";
     }
-    .open li {
-        display: block;
-        width: 100%;
-    }
-    .open li a {
-        display: block;
-    }
+
+    
 
 
 }

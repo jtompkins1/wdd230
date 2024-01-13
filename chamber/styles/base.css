@@ -64,6 +64,27 @@ nav .active {
     display: none;
 }
 
+.open li {
+    display: block;
+    width: 100%;
+}
+.open li a {
+    display: block;
+}
+nav.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+nav.open a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
 h1, h2, h3 {
     font-family: 'Days One', sans-serif;
 }
