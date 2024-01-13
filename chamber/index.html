@@ -22,13 +22,23 @@
 </head>
 <body>
     <header>
-        <h1>Rogers Chamber of Commerce</h1>
+        <h1 class="header-msg">Rogers Chamber of Commerce</h1>
+        <button id="menu"></button>
     </header>
     <nav>
-        <a class="active" href="https://jtompkins1.github.io/wdd230/chamber.html">Home</a>
-        <a href="#">Discover</a>
-        <a href="#">Directory</a>
-        <a href="#">Join</a>
+        <ul class="navigation">
+            <li><a class="active" href="https://jtompkins1.github.io/wdd230/chamber.html" title="Home">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></ul></li>
+
+        <!-- <div class="navigation">
+            <a class="active" href="https://jtompkins1.github.io/wdd230/chamber.html" title="Home">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a></div> -->
+
+
     </nav>
     <main>
         <section class="hero">
@@ -46,15 +56,14 @@
 
                </p>
                  
-               <!-- <button type="button" class="hero-button" onclick="#">
-                    Join Us &raquo;
-               </button> -->
+
             
             </div>
         
         </section>
         <section id="join">
             <h2>Become a Member!</h2>
+            <button type="button" id="join-button" onclick="#"> Join
         </section>
         <section id="events">
             <h2>Events</h2>
@@ -65,7 +74,7 @@
         </section>
     </main>
     <section id="sidebar">
-        <h3>Rogers, Arkansas <br>
+        <h3>Rogers <br>Arkansas <br>
             Weather</h3>
     </section>
     <footer>
@@ -75,6 +84,7 @@
         <p id="last">Last Modified: <span id="lastModified"></span></p>  
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
     
 </body>
 </html>
