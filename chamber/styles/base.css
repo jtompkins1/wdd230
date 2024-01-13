@@ -3,13 +3,13 @@ font-family: 'Kanit', sans-serif;
 blue #033e87	gray #D8D4D8 */
 
 body {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr auto;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto 1fr 1fr auto;
 }
 
 header {
@@ -44,7 +44,7 @@ nav .active {
     border: 3px solid black;
 
 }
-h2, h3 {
+h1, h2, h3 {
     font-family: 'Days One', sans-serif;
 }
 p {
@@ -52,55 +52,57 @@ p {
 }
 main {
     grid-column: 1/3;
-    padding-left: 4rem;
     /* display: grid; */
     /* grid-template-columns: 1fr repeat(8); */
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     /* row-gap: 10px;
     column-gap: 10px; */
 }
-#hero, #join, #events, #spotlights {
-    /* grid-column: 2/8; */
-    padding: 1rem;
-    /* padding-left: 3rem; */
+
+.hero {
+    position: relative;
+    height: 500px;
+    grid-row: 1/2;
 }
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    /* grid-template-rows: 1fr 1fr; */
-}
-#hero-box {
-    grid-column: 1/4;
-    /* grid-row: 1/3; */
+.hero-img {
+    position: absolute;
     z-index: -1;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+
 }
-#welcome {
-    grid-column: 2/3;
-    text-align: center;
-    color: #033e87;
+.hero-content {
+    position: absolute;
+}
+
+.hero-title {
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    text-align: left;
     font-size: 2rem;
 }
-#hero-msg {
-    display: block;
-    margin-top: -310px;
-    grid-column: 1/3;
+.hero-subtitle {
     font-size: 1.5rem;
-    color: black;
-    /* background-color: #ffffff90; */
-    max-height: 200px;
-
-    padding: 2rem;
-    /* grid-row: 1/2; */
-    /* grid-column: 2/3;
-    grid-row: 1/2; */
-    width: 100%;
+    width: 80%;
+    margin-top: 200px;
+    padding-left: 2.5rem;
+    /* padding-top: 11rem; */
+    padding-bottom: .5rem;
+}
+#join {
+    grid-row: 2/3;
+}
+#events {
+    grid-row: 3/4;
 
 }
-#hero-img {
-    width: 100%;
-    opacity: .5;
+#spotlights {
+    grid-row: 4/5;
 }
-
 #sidebar {
     grid-column: 3/4;
     /* display: block; */
