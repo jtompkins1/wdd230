@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogers Chamber of Commerce</title>
+    <meta name="description" content="City of Rogers Arkansas Chamber of Commerce">
+    <meta name="author" content="Jennifer Tompkins">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Rogers Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.arkansas.com/sites/default/files/2018-11/War_Eagle_Mill_Rogers_8146.jpg">
+    <meta property="og:url" content="https://jtompkins1.github.io/wdd230/chamber.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 class="header-msg">Rogers Chamber of Commerce</h1>
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="active" href="https://jtompkins1.github.io/wdd230/chamber.html" title="Home">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+
+        <!-- <div class="navigation">
+            <a class="active" href="https://jtompkins1.github.io/wdd230/chamber.html" title="Home">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a></div> -->
+
+
+    </nav>
+    <main>
+        <section class="hero">
+
+            <img class="hero-img" src="images/rogers.jpg" alt="War Eagle Mill">
+
+            <div class="hero-content">
+            
+               <h1 class="hero-title">
+                    Welcome to Rogers, Arkansas
+               </h1>
+                 
+               <p class="hero-subtitle"><strong>     The Rogers Chamber of Commerce <br> is committed to developing and <br>promoting the economy and <br>
+                community relations in the city of <br>Rogers, Arkansas.</strong>
+
+               </p>
+                 
+
+            
+            </div>
+        
+        </section>
+        <section id="join">
+            <h2>Become a Member!</h2>
+            <button type="button" id="join-button" onclick="#"> Join
+        </section>
+        <section id="events">
+            <h2>Events</h2>
+        </section>
+
+        <section id="spotlights">
+            <h2>Spotlights</h2>
+        </section>
+    </main>
+    <section id="sidebar">
+        <h3>Rogers <br>Arkansas <br>
+            Weather</h3>
+    </section>
+    <footer>
+        <p class="footer1">&copy; <span id="year"></span> Rogers Chamber of Commerce</p>
+        <p id="contact">Contact Us</p>
+        <p id="project">Project page created by Jennifer Tompkins - WDD230</p>
+        <p id="last">Last Modified: <span id="lastModified"></span></p>  
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    
+</body>
+</html>

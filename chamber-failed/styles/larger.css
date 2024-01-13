@@ -1,0 +1,64 @@
+@media screen and (max-width: 640px) {
+    footer{
+        flex-direction: column;
+    }
+    .navigation{
+        display: none;
+
+    }
+    nav a {
+        display: block;
+        /* padding: 15px; */
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .card{
+        grid-column: 1/2;
+    }
+    /* small view navigation */
+    #menu {
+        display: block;
+        font-size: 1.5rem;
+        /* border: 1px solid rgba(0,0,0,.3); */
+        padding: 3px 7px 6px;
+        /* background-color: #eee; */
+        /* color: #000; */
+        justify-self: right;
+        margin: 20px;
+    }
+    #menu::before {
+        content: "☰";
+    
+    }
+    
+    #menu.open::before {
+        content: "<<";
+    }
+
+    .open li {
+        display: block;
+        width: 100%;
+    }
+    .open li a {
+        display: block;
+    }
+
+    nav.open {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.5rem;
+    }
+    nav.open a {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        margin: 0;
+    } 
+
+
+}
+
