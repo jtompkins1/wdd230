@@ -189,7 +189,9 @@ footer {
 #contact {
     grid-row: 2/2;
     grid-column: 1/2;
-    align-content: top;
+    /* align-content: top; */
+    font-family: 'Kanit', sans-serif;
+    padding-top: 1rem;
 }
 
 #project {
