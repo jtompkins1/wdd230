@@ -1,0 +1,68 @@
+/* small view navigation */
+
+header {
+    background-color: #033e87;
+    color: white;
+    font-family: 'Days One', sans-serif;
+    padding: 1rem;
+}
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "<<";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+    background-color: #D8D4D8;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: flex;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+    font-family: 'Kanit', sans-serif;
+}
+nav a:hover {
+	background-color: black;
+	color: white;
+	/* font-weight: 700; */
+}
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.navigation.open li {
+	display: flex;
+	width: 100%;
+}
+.navigation.open li a {
+	display: block;
+    width: 100%;
+}
+
+/* .active::before {
+    border: 4px solid white;
+} */
+nav .active {
+	border: 4px solid black;
+    background-color: white;
+
+}

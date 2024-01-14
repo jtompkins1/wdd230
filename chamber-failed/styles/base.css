@@ -35,7 +35,6 @@ nav {
     /* grid-row: 2/3; */
     background-color: #D8D4D8;
     justify-content: space-around;
-    display: flex;
     font-family: 'Kanit', sans-serif;
     font-size: 1.5rem;
     flex-direction: row;
