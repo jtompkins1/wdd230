@@ -54,10 +54,7 @@ nav a:hover {
 	display: flex;
 	width: 100%;
 }
-/* .navigation li {
-	display: flex;
-	width: 100%;
-} */
+
 .navigation.open li a {
 	display: block;
     width: 100%;
@@ -78,6 +75,48 @@ h1, h2, h3 {
 }
 p {
     font-family: 'Kanit', sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+
+}
+.hero {
+    position: relative;
+    height: 500px;
+    grid-row: 1/2;
+}
+
+.hero-img {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+
+.hero-content {
+    position: absolute;
+}
+
+.hero-title {
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 100px;
+    padding-left: 2.5rem;
+    /* padding-top: 11rem; */
+    padding-bottom: .5rem;
 }
 footer {
     grid-column: 1 / 4;
