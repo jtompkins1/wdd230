@@ -76,12 +76,12 @@ h1, h2, h3 {
 p {
     font-family: 'Kanit', sans-serif;
 }
-main {
+/* main {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto auto 1fr auto;
 
-}
+} */
 .hero {
     position: relative;
     height: 500px;
@@ -118,6 +118,14 @@ main {
     /* padding-top: 11rem; */
     padding-bottom: .5rem;
 }
+#sidebar {
+    background-color: #033e87;
+    color: white;
+    font-family: 'Days One', sans-serif;
+    padding: 1rem;
+
+}
+
 footer {
     grid-column: 1 / 4;
     display: grid;
