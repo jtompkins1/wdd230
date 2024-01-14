@@ -118,6 +118,41 @@ p {
     /* padding-top: 11rem; */
     padding-bottom: .5rem;
 }
+#join {
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.join-content {
+    text-align: center;
+
+}
+#join-button {
+    border: 5px solid black;
+    color: #033e87;
+    font-family: 'Days One', sans-serif;
+    font-size:1.5rem;
+    background-color: #D8D4D8;
+    padding: 15px 30px;
+    border-radius: 7px;
+
+}
+
+#join-button:hover {
+    color: white;
+    background-color: black;
+}
+#events {
+    grid-row: 3/4;
+
+}
+
+#spotlights {
+    grid-row: 4/5;
+}
 #sidebar {
     background-color: #033e87;
     color: white;
