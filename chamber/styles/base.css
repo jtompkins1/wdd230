@@ -1,5 +1,15 @@
 /* small view navigation */
+h1 {
+    
+    font-size: 2.5rem;
+    margin-left: 0;
+    text-align: center;
+}
 
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
 header {
     background-color: #033e87;
     color: white;
