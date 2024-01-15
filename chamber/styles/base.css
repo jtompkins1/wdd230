@@ -160,12 +160,14 @@ p {
 #events {
     grid-row: 3/4;
     text-align: center;
+    padding: 1rem;
 
 }
 
 #spotlights {
     grid-row: 4/5;
     text-align: center;
+    padding: 1rem;
 }
 #sidebar {
     background-color: #033e87;
