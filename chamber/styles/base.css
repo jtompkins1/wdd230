@@ -1,4 +1,7 @@
 /* small view navigation */
+body {
+    margin: 0 auto;
+}
 h1 {
     
     font-size: 2.5rem;
@@ -156,11 +159,13 @@ p {
 }
 #events {
     grid-row: 3/4;
+    text-align: center;
 
 }
 
 #spotlights {
     grid-row: 4/5;
+    text-align: center;
 }
 #sidebar {
     background-color: #033e87;
