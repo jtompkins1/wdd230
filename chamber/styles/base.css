@@ -41,7 +41,7 @@ header {
 	list-style: none;
     background-color: #D8D4D8;
 }
-.navigation li {
+.navigation div {
 	display: none;
 }
 .navigation a {
@@ -60,16 +60,16 @@ nav a:hover {
 }
 
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
-.navigation.open li {
+.navigation.open div {
 	display: flex;
 	width: 100%;
 }
 
-.navigation.open li a {
+.navigation.open div a {
 	display: block;
     width: 100%;
 }
-.navigation li a {
+.navigation div a {
     display: block;
     width: 100%;
 }
