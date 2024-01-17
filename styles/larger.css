@@ -37,9 +37,6 @@
     display: grid;
     grid-template-columns: 1fr auto;
     }
-    .navigation.open div {
-        display: none;
 
-    }
 
 }
