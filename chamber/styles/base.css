@@ -41,7 +41,7 @@ header {
 .navigation {
 	display: flex;
 	flex-direction: column;
-	list-style: none;
+	/* list-style: none; */
     background-color: #D8D4D8;
 }
 .navigation div {
