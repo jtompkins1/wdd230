@@ -32,20 +32,6 @@
         /* grid-template-columns: 1fr auto; */
         /* grid-template-rows: auto 1fr; */
     }
-    /* nav, footer{
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .card{
-        grid-column: 1/2;
-    } */
 
     main {
     display: grid;
