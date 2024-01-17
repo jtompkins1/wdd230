@@ -142,7 +142,9 @@ nav, footer{
 }
 nav a {
     display: block;
-    padding: 15px;
+}
+li {
+    padding: 0.5rem;
 }
 main {
     display: block;
