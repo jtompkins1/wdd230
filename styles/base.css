@@ -11,6 +11,7 @@ h2 {
 
 }
 header {
+    position: relative;
     display: flex;
     background-color: rgb(97, 50, 207);
     padding: 1rem;
@@ -20,13 +21,39 @@ header {
     justify-content: center;
     font-size: 1.6rem;
 }
+#darkBtn {
+    position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+    padding: 1px 1px;
+    background-color: black;
+}
+main.dark {
+    background-color:black;
+    color: white;
+}
+main.dark a {
+    color: lightgreen;
+}
+main.dark a:hover {
+    color: lightskyblue;
+}
+
+main.dark .card {
+    background-color:black;
+    color: white;
+    border-color: white;
+
+}
+
 #menu {
 	font-size: 1.5rem;
-	border: 1px solid rgba(0,0,0,.3);
+	/* border: 1px solid rgba(0,0,0,.3); */
 	padding: 3px 7px 6px;
-	background-color: #eee;
+	/* background-color: #eee; */
 	color: #000;
- 	position: fixed;
+ 	position: absolute;
 	top: 10px;
 	right: 10px;
 }
@@ -92,12 +119,14 @@ nav .active {
 }
 h1 {
     grid-column: 1/3;
-}
-main {
-    max-width: 1000px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.card-container {
+    margin: 0 auto;
+    color: black;
+    padding: 1rem;
 
 }
 
@@ -130,6 +159,7 @@ li {
 }
 
 footer {
+    margin: 0 auto;
     display: block;
     background-color: rgb(97, 50, 207);
     color: white;
@@ -146,9 +176,9 @@ nav a {
 li {
     padding: 0.5rem;
 }
-main {
+/* main {
     display: block;
-}
+} */
 
 
 
