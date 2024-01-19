@@ -48,6 +48,8 @@ main.dark .card {
 }
 
 #menu {
+    width: 44px;
+    height: 44px;
 	font-size: 1.5rem;
 	/* border: 1px solid rgba(0,0,0,.3); */
 	padding: 3px 7px 6px;
@@ -59,11 +61,11 @@ main.dark .card {
 }
 
 #menu::before {
-	content: "☰";
+	content: "\2630";
 }
 
 #menu.open::before {
-	content: "<<";
+	content: "\2716";
 }
 #name {
     padding: 1rem;
