@@ -92,8 +92,8 @@ img {
     text-align: center;
     color: white;
 	text-decoration: none;
-    width: 100%;
     font-size: 1.2rem;
+    width: 100%;
 }
 
 
@@ -109,13 +109,17 @@ nav a:hover {
 
 .navigation.open div a {
 	display: block;
-    width: 100%;
+    /* padding-top: 1rem; */
+    padding-right: 0;
+    padding-left: 0;
+    /* width: 100%; */
 }
 .navigation div a {
     display: block;
-    width: 100%;
+    /* width: 100%; */
 }
 nav .active {
+
 
     background-color: rgb(2, 82, 135);
 
@@ -176,9 +180,9 @@ footer {
 nav, footer{
     flex-direction: column;
 }
-nav a {
+/* nav a {
     display: block;
-}
+} */
 li {
     padding: 0.5rem;
 }
