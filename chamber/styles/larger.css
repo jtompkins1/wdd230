@@ -47,6 +47,7 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        min-width: 150px;
     }
     #join {
         grid-row: 2/3;
