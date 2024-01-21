@@ -47,6 +47,7 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        max-width: 150px;;
     }
     #join {
         grid-row: 2/3;
@@ -82,4 +83,17 @@
     #spotlights {
         grid-row: 4/5;
     }
+}
+
+/* start of discover page styles */
+
+.img-box {
+    overflow: hidden;
+}
+.img-box img {
+    transition: transform 0.3s ease;
+}
+
+.img-box img:hover {
+    transform: scale(1.06);
 }
