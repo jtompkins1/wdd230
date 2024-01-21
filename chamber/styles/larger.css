@@ -8,12 +8,12 @@
 
     }
 	h1 {
-    
+
 		font-size: 2.5rem;
 		margin-left: 0;
 		text-align: center;
 	}
-	
+
 	h2 {
 		font-size: 2rem;
 		text-align: center;
@@ -69,7 +69,7 @@
         padding: 15px 30px;
         border-radius: 7px;
     }
-    
+
     #join-button:hover {
         color: white;
         background-color: black;
@@ -77,23 +77,21 @@
     }
     #events {
         grid-row: 3/4;
-    
+
     }
-    
+
     #spotlights {
         grid-row: 4/5;
     }
+    /* start of discover page styles */
+
+    .images-container img:hover {
+        transform: scale(1.06);
+    }
+
+    .imgages-container img {
+        transition: transform 0.3s ease;
+    }
 }
 
-/* start of discover page styles */
 
-.img-box {
-    overflow: hidden;
-}
-.img-box img {
-    transition: transform 0.3s ease;
-}
-
-.img-box img:hover {
-    transform: scale(1.06);
-}
