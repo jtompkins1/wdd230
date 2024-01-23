@@ -221,18 +221,14 @@ footer {
     overflow: hidden;
     align-items: center;
     padding-top: 2rem;
-
 }
 
 .imgages-container p {
     text-align: center;
     max-width: 60%;
-    padding: 1.7rem;
     font-size: 1.2rem;
 }
 .images-container img {
     box-shadow: 10px 10px 8px black;
     border-radius: 10px;
-    margin: 0 auto;
-
 }
