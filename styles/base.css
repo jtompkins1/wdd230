@@ -2,14 +2,14 @@ body {
     font-family: 'Dosis', sans-serif;
     margin: 0 auto;
     max-width: 1200px;
+    display: block;
 }
 h1, h2 {
     text-align: center;
-}
-h2 {
-    color: white;
     margin: 0 auto;
+    color: white;
 }
+
 header {
     position: relative;
     display: flex;
@@ -103,9 +103,25 @@ nav a:hover {
 nav .active {
     background-color: rgb(2, 82, 135);
 }
-h1 {
-    grid-column: 1/3;
-    margin: 0 auto;
+.title {
+    padding: 1rem;
+    text-align: center;
+}
+.hero {
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    z-index: -1;
+}
+.hero-content {
+    position: absolute;
     padding: 1rem;
 }
 .card-container {
@@ -113,15 +129,11 @@ h1 {
     color: black;
     padding: 1rem;
 }
-main {
-    margin-top: 1rem;
-}
 .card {
     background-color: white;
     border: 2px solid black;
     margin: 1rem;
     border-radius: 10px;
-
 }
 .card-header {
     background-color: rgb(1, 95, 130);
@@ -135,12 +147,12 @@ main {
 li {
     list-style-type: none;
     font-size: 1.2rem;
+    padding: 0.5rem;
 }
 .info {
     padding: 1rem;
     font-size: 1.2rem;
 }
-
 footer {
     margin: 0 auto;
     display: block;
@@ -149,13 +161,10 @@ footer {
     text-align: center; 
     padding: 0.5rem;
 }
-
 nav, footer{
     flex-direction: column;
 }
-li {
-    padding: 0.5rem;
-}
+
 
 
 

@@ -27,12 +27,17 @@
         min-width: 640px;
         max-width: 1400px;
     }
-
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img {
+        height: auto;
+    }
     .card-container {
+        margin: 0 auto;
         max-width: 1000px;
         display: grid;
         grid-template-columns: 1fr auto;
     }
-
-
 }
