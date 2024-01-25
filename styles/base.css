@@ -189,13 +189,13 @@ nav, footer{
     display: flex;
     align-items: center;
     justify-content:center;
-    max-height: 300px;
+    max-height: 450px;
     padding: 1rem;
 
 }   
 .map-container iframe {
     max-width: 100%;
-    max-height: 300px;
+    max-height: 450px;
     /* max-height: 100%; */
 }
 
