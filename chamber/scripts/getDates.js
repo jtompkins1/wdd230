@@ -1,7 +1,9 @@
 const todayDate = new Date();
+const dateString = new Date().toString();
 
-const lastVisitStored = localStorage.getItem("lastVisit")
 
+//last visit
+const lastVisitStored = localStorage.getItem("lastVisit");
 
 if (lastVisitStored === null) {
     document.querySelector("#visit-msg").textContent = "Welcome! Let us know if you have any questions.";
@@ -17,7 +19,10 @@ if (lastVisitStored === null) {
 
 }
 
- const dateString = new Date().toString();
+localStorage.setItem("lastVisitStored", daysSinceVisit);
+
+
+//sidebar date and time
 
 document.querySelector("#today").textContent = todayDate.toDateString();
 
