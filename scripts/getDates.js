@@ -1,5 +1,9 @@
+
+//footer year
 document.querySelector("#year").textContent = new Date().getFullYear();
 
+
+//last modified
 document.querySelector("#lastModified").textContent = new Date(document.lastModified);
 
 //number of visits

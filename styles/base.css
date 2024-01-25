@@ -9,6 +9,11 @@ h1, h2 {
     margin: 0 auto;
 
 }
+h1 {
+    white-space: nowrap;
+    font-size: 1.2rem;
+
+}
 h2 {
     color: white;
 }
@@ -21,7 +26,8 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+    white-space: nowrap;
 }
 #darkBtn {
     position: absolute;
@@ -150,6 +156,7 @@ nav .active {
     border: 2px solid black;
     margin: 1rem;
     border-radius: 10px;
+    /* white-space: nowrap; */
 }
 .card-header {
     background-color: rgb(1, 95, 130);
@@ -158,11 +165,11 @@ nav .active {
     border-top-left-radius: 8px;
 }
 .card a {
-    padding: .8rem;
+    padding: .3rem;
 }
 li {
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.5rem;
 }
 .info {
