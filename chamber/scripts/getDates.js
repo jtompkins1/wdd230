@@ -3,35 +3,43 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 
 document.querySelector("#lastModified").textContent = new Date(document.lastModified);
 
-const todayDate = new Date();
-const dateString = new Date().toString();
-
 
 //last visit
-const lastVisitStored = localStorage.getItem("lastVisit");
+//milliseconds per day
+const msToDays = 86400000;
+const theDateToday = new Date();
 
-if (lastVisitStored === null) {
-    document.querySelector("#visit-msg").textContent = "Welcome! Let us know if you have any questions.";
-} else {
-    const lastVisit = new Date(lastVisitStored);
-    let daysSinceVisit = (todayDate - lastVisit) / 84600000;
+//display elements
+const firstVisitMsg = "Welcome! Let us know if you have any questions";
+const soonVisitMsg = "Back so soon! Awesome!";
+
+//get item date of last visit to local storage
+let visitDate = localStorage.getItem("visitDate-ls");
+
+//calculate days since last visit
+let daysSinceVisit = visitDate ? (theDateToday - new Date(visitDate)) / msToDays : 0;
+
+if (daysSinceVisit !== 0) {
 
     if (daysSinceVisit > 0 && daysSinceVisit < 1) {
-        document.querySelector("#visit-msg").textContent = "Back so soon! Awesome!"
-    } else {
-        document.querySelector("#visit-msg").innerHTML = `You last visited ${daysSinceVisit} days ago`;
+        document.querySelector("#visit-msg").textContent = soonVisitMsg;
+    } else if (daysSinceVisit > 1) {
+        document.querySelector("#visit-msg").textContent = `You last visited ${Math.floor(daysSinceVisit)} days ago`; 
+
+    } 
+} else {
+    document.querySelector("#visit-msg").textContent = firstVisitMsg;
     }
 
-}
-
-localStorage.setItem("lastVisitStored", daysSinceVisit);
+//set item date of current visit to local storage
+localStorage.setItem("visitDate-ls", theDateToday);
 
 
 //sidebar date and time
 
-document.querySelector("#today").textContent = todayDate.toDateString();
+document.querySelector("#today").textContent = theDateToday.toDateString();
 
-document.querySelector("#time").textContent = todayDate.toLocaleTimeString();
+document.querySelector("#time").textContent = theDateToday.toLocaleTimeString();
 
 
 
