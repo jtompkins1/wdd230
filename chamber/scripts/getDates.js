@@ -1,3 +1,8 @@
+// footer info
+document.querySelector("#year").textContent = new Date().getFullYear();
+
+document.querySelector("#lastModified").textContent = new Date(document.lastModified);
+
 const todayDate = new Date();
 const dateString = new Date().toString();
 
@@ -28,8 +33,5 @@ document.querySelector("#today").textContent = todayDate.toDateString();
 
 document.querySelector("#time").textContent = todayDate.toLocaleTimeString();
 
-// footer info
-document.querySelector("#year").textContent = new Date().getFullYear();
 
-document.querySelector("#lastModified").textContent = new Date(document.lastModified);
 
