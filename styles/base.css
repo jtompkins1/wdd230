@@ -185,7 +185,7 @@ footer {
 nav, footer{
     flex-direction: column;
 }
-.map-container {
+#map {
     display: flex;
     align-items: center;
     justify-content:center;
@@ -193,7 +193,7 @@ nav, footer{
     padding: 1rem;
 
 }   
-.map-container iframe {
+#map iframe {
     max-width: 100%;
     max-height: 450px;
     /* max-height: 100%; */
