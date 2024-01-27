@@ -1,0 +1,40 @@
+:root {
+    --border: solid .7px black;
+    --zebra: lightgray;
+    --back1: black;
+    --back2: rgb(46, 62, 242);
+
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: var(--border);
+}
+td, th {
+    text-align: center;
+    padding: 1rem;
+    border: var(--border);
+}
+#title, #blank {
+    background-color: var(--back1);
+    color: white;
+    font-size: larger;
+}
+thead tr:not(:first-child) {
+    background-color: var(--back2);
+    color: white;
+}
+tbody th {
+    color: var(--back2);
+}
+tbody tr:nth-child(2){
+    background-color: var(--zebra);
+}
