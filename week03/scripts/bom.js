@@ -24,8 +24,8 @@ buttonElement.addEventListener("click", () => {
 function displayList(item) {
     const li = document.createElement("li");
     const deleteButton = document.createElement("button");
-    
-    li.textContent = inputElement.value;
+
+    li.textContent = item;
     deleteButton.textContent = "❌";
     
     li.append(deleteButton);
