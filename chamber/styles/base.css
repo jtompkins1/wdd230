@@ -1,4 +1,10 @@
 /* small view navigation */
+:root {
+    --main-color: #033e87;
+    --sub-color: #D8D4D8;
+    --main-font: 'Days One', sans-serif;
+    --sub-font: 'Kanit', sans-serif;
+}
 body {
     margin: 0 auto;
 }
@@ -14,9 +20,9 @@ h2 {
     text-align: center;
 }
 header {
-    background-color: #033e87;
+    background-color: var(--main-color);
     color: white;
-    font-family: 'Days One', sans-serif;
+    font-family: var(--main-font);
     padding: 2rem;
 }
 #menu {
@@ -42,7 +48,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	/* list-style: none; */
-    background-color: #D8D4D8;
+    background-color: var(--sub-color);
 }
 .navigation div {
 	display: none;
@@ -53,7 +59,7 @@ header {
 	text-align: center;
 	text-decoration: none;
 	color: black;
-    font-family: 'Kanit', sans-serif;
+    font-family: var(--sub-font);
     width: 100%;
 }
 nav a:hover {
@@ -84,10 +90,10 @@ nav .active {
 }
 
 h1, h2, h3 {
-    font-family: 'Days One', sans-serif;
+    font-family: var(--main-font);
 }
 p {
-    font-family: 'Kanit', sans-serif;
+    font-family: var(--sub-font);
 }
 
 
@@ -140,10 +146,10 @@ p {
 }
 #join-button {
     border: 5px solid black;
-    color: #033e87;
-    font-family: 'Days One', sans-serif;
+    color: var(--main-color);
+    font-family: var(--main-font);
     font-size:1.5rem;
-    background-color: #D8D4D8;
+    background-color: var(--sub-color);
     padding: 15px 30px;
     border-radius: 7px;
 
@@ -166,9 +172,9 @@ p {
     padding: 1rem;
 }
 #sidebar {
-    background-color: #033e87;
+    background-color: var(--main-color);
     color: white;
-    font-family: 'Days One', sans-serif;
+    font-family: var(--main-font);
     padding: 1rem;
     display: block;
     text-align: center;
@@ -182,7 +188,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
-    background-color: #D8D4D8;
+    background-color: var(--sub-color);
     color: black;
     padding: .5rem;
     padding-left: 2rem;
@@ -196,7 +202,7 @@ footer {
 #contact {
     grid-row: 2/2;
     grid-column: 1/2;
-    font-family: 'Kanit', sans-serif;
+    font-family: var(--sub-font);
     padding-top: 1rem;
 }
 
@@ -231,4 +237,86 @@ footer {
 .images-container img {
     box-shadow: 10px 10px 8px black;
     border-radius: 10px;
+}
+/* start of form page styles */
+#join-form{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 1rem;
+}
+#benfits h3, #application h3 {
+    font-family: var(--main-font);
+}
+#application {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* margin: 1rem; */
+}
+
+#application h3, #application .submitBtn {
+    margin: 0 2rem;
+}
+#benefits {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 0 1rem;
+    background-color: var(--main-color);
+    color: white;
+}
+#benefits ul {
+    font-family: var(--sub-font);
+}
+form label {
+    display: block;
+    padding: .5rem;
+}
+form legend {
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+form fieldset {
+    font-family: var(--sub-font);
+    margin: 1rem;
+    border: 2px dashed var(--main-color);
+    border-radius: 10px;
+    padding: 1rem 2%;
+
+}
+form label.top input, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid  1px black;
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--main-color);
+    width: 100%;
+    max-width: 20rem;
+    background-color:#e5e4e5f8;
+
+}
+form label.sbs {
+    padding: .75rem 0;
+}
+form label.top input:required {
+    border: solid 3px black;
+}
+form label.top input:required:valid {
+    border: solid 1px black;
+}
+.submitBtn {
+    background-color: var(--main-color);
+    color: white;
+    border: 2px solid black;
+    font-family: var(--main-font);
+    font-size:1.1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* start of thank you message styles */
+.thankYou {
+    display: block;
+    margin: 2rem;
 }
