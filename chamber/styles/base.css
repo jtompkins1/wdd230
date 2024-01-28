@@ -10,7 +10,7 @@ body {
 }
 h1 {
 
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     margin-left: 0;
     text-align: center;
 }
@@ -240,28 +240,30 @@ footer {
 }
 /* start of form page styles */
 #join-form{
-    display: grid;
-    grid-template-columns: 1fr auto;
+    /* display: grid;
+    grid-template-columns: 1fr auto; */
     margin: 1rem;
 }
 #benfits h3, #application h3 {
     font-family: var(--main-font);
 }
-#application {
+/* #application {
     grid-column: 1/2;
     grid-row: 1/2;
-    /* margin: 1rem; */
-}
+    margin: 1rem; 
+} */
 
 #application h3, #application .submitBtn {
     margin: 0 2rem;
 }
 #benefits {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    padding: 0 1rem;
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    margin: 10px 0;
+    padding: .5rem 1rem;
     background-color: var(--main-color);
     color: white;
+    border-radius: 7px;
 }
 #benefits ul {
     font-family: var(--sub-font);
@@ -292,14 +294,14 @@ form label.top input, form label.top textarea {
     color: var(--main-color);
     width: 100%;
     max-width: 20rem;
-    background-color:#e5e4e5f8;
+    background-color:#dcdadcde;
 
 }
 form label.sbs {
     padding: .75rem 0;
 }
 form label.top input:required {
-    border: solid 3px black;
+    border: solid 3px blue;
 }
 form label.top input:required:valid {
     border: solid 1px black;

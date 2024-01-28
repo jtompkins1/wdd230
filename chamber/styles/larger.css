@@ -49,6 +49,20 @@
         flex-direction: column;
         max-width: 150px;;
     }
+    #benefits {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #application {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        /* margin: 1rem; */
+    }
+    #join-form{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        margin: 2rem;
+    }
     #join {
         grid-row: 2/3;
         display: flex;
