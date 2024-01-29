@@ -242,32 +242,23 @@ footer {
 #join-form{
     /* display: grid;
     grid-template-columns: 1fr auto; */
-    margin: 1rem;
+    margin: 10px 1rem;
 }
 #benfits h3, #application h3 {
     font-family: var(--main-font);
+
 }
-/* #application {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin: 1rem; 
-} */
+#benefits h3 {
+    text-align: center;
+}
+#application {
+    margin-bottom: 30px;
+}
 
 #application h3, #application .submitBtn {
     margin: 0 2rem;
 }
-#benefits {
-    /* grid-column: 2/3;
-    grid-row: 1/2; */
-    margin: 10px 0;
-    padding: .5rem 1rem;
-    background-color: var(--main-color);
-    color: white;
-    border-radius: 7px;
-}
-#benefits ul {
-    font-family: var(--sub-font);
-}
+
 form label {
     display: block;
     padding: .5rem;
@@ -278,10 +269,11 @@ form legend {
 }
 form fieldset {
     font-family: var(--sub-font);
-    margin: 1rem;
+    margin: .5rem;
     border: 2px dashed var(--main-color);
     border-radius: 10px;
     padding: 1rem 2%;
+    width: 95%;
 
 }
 form label.top input, form label.top textarea {
@@ -292,7 +284,7 @@ form label.top input, form label.top textarea {
     border-radius: 4px;
     padding: .75rem;
     color: var(--main-color);
-    width: 100%;
+    width: 90%;
     max-width: 20rem;
     background-color:#dcdadcde;
 
@@ -322,3 +314,66 @@ form label.top input:required:valid {
     display: block;
     margin: 2rem;
 }
+#benefits {
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    margin: -25px 0;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: .5rem 1.5rem;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 7px;
+}
+#benefits li {
+    font-family: var(--sub-font);
+    color: black;
+}
+dl {
+    color: white;
+    font-family: var(--sub-font);
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    font-family: var(--main-font);
+
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active1, .accordion:hover {
+    background-color:var(--sub-color)
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    font-family: var(--main-font);
+    padding: 1rem;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active1:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color: black;
+  }

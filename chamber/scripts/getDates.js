@@ -41,5 +41,6 @@ document.querySelector("#today").textContent = theDateToday.toDateString();
 
 document.querySelector("#time").textContent = theDateToday.toLocaleTimeString();
 
-
+//hidden input timestamp
+document.querySelector("#timestamp").textContent = theDateToday;
 
