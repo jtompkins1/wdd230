@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jennifer Tompkins - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development | Jennifer Tompkins | Course Assignment Portal">
+    <meta name="author" content="Jennifer Tompkins">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Jennifer Tompkins - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.arkansas.com/sites/default/files/2018-11/War_Eagle_Mill_Rogers_8146.jpg">
+    <meta property="og:url" content="https://jtompkins1.github.io/wdd230">
+</head>
+
+<body>
+
+    <header>
+        <div><img src="images/moon.svg" alt="dark mode" width="44" height="44" id="darkBtn"></div>
+        <img src="images/profile-sm.webp" alt="Jennifer Tompkins Profile" width="75" height="100">
+        <span id="name">Jennifer Tompkins</span>
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <div><a href="https://jtompkins1.github.io/wdd230">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="week01/chamber-site-plan.html">Site Plan</a>
+            <a class="active"  href="form.html">Form</a></div>
+    </nav>
+    <main>
+        <div id="formmessage"></div>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>User Information</legend>
+
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                
+                <label>Password* <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}"></label>
+                <!-- only accept alpha-numeric characters, with a minimum of eight characters -->
+
+                <label>Confirm Password* <input type="password" id="password2" name="password2" required></label>
+
+                <label>Enter a valid email address* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+
+                <label for="r">Rate Page</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </datalist>
+
+
+            </fieldset>
+
+        </form>
+
+
+
+
+
+       
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Jennifer Tompkins | United States</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+
+</body>
+</html>

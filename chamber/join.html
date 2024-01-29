@@ -40,27 +40,27 @@
             <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Applicant Information</legend>
-                    <label class="top">First Name* <input type="text" name="fname" required></label>
-                    <label class="top">Last Name* <input type="text" name="lname" required></label>
-                    <label class="top">Title or Position <input type="text" name="title" pattern="[a-zA-Z\- ]{7,}"></label>
+                    <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                    <label class="top">Title or Position <input type="text" id="title" name="title" pattern="[a-zA-Z\- ]{7,}"></label>
                     <!-- only accept alpha characters, hyphens, and spaces with a minimum of seven characters -->
-                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Mobile Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Mobile Phone* <input type="tel" id="phone" name="phone" placeholder="1235551234"></label>
     
                 </fieldset>
     
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label class="top">Business/Organization Name* <input type="text" name="bname" required></label>
+                    <label class="top">Business/Organization Name* <input type="text" id="bname" name="bname" required></label>
                     <label class="top">Description <textarea name="description" id="description" cols="21" rows="4"></textarea>
                 </fieldset>
     
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label class="sbs"><input type="radio" name="membership" value="np"> Non-Profit Membership</label>
-                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                    <label class="sbs"><input type="radio" id="membership" name="membership" value="np"> Non-Profit Membership</label>
+                    <label class="sbs"><input type="radio" id="membership" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" id="membership" name="membership" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" id="membership" name="membership" value="gold"> Gold Membership</label>
                     
                 </fieldset>
     
