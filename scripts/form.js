@@ -1,6 +1,6 @@
 const pw1 = document.querySelector("#password");
 const pw2 = docment.querySelector("#password2");
-const message = document.querySelector()
+const message = document.querySelector("#formmessage")
 
 pw2.addEventListener("focusout", checkSame);
 
@@ -19,12 +19,13 @@ function checkSame() {
     }
 }
 
-const rangevalue = document.getElementById("rangevalue");
+const rating = document.getElementById("rating");
 const range = document.getElementById("r");
 
 // RANGE event listener
 range.addEventListener('change', displayRatingValue);
 range.addEventListener('input', displayRatingValue);
+
 
 function displayRatingValue() {
     rangevalue.innerHTML = range.value;

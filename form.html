@@ -50,11 +50,13 @@
                 <label>Enter a valid email address* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
 
                 <label for="r">Rate Page</label>
-                <div id="rangevalue">0</div>
+
+                <div id="rating">0</div>
+
                 <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+
                 <datalist id="rangevalues">
                     <option value="0">0</option>
-
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -65,19 +67,14 @@
                     <option value="8">8</option>
                     <option value="9">9</option>
                     <option value="10">10</option>
-
                 </datalist>
-
 
             </fieldset>
 
+            <input type="submit" value="Sign Up" class="submitBtn">
+
         </form>
 
-
-
-
-
-       
     </main>
     <footer>
         <p>&copy; <span id="year"></span> Jennifer Tompkins | United States</p>

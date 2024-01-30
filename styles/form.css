@@ -1,24 +1,82 @@
+:root {
+	--color1: rgb(97, 50, 207);
+	--color2: #1c0258;
+	--color3: #bdb9e780;
+}
+
+form {
+	margin: 2rem auto;
+	max-width: 80%;
+	color: #1c0258;
+	font-weight: bolder;
+	background-color: white;
+}
+form fieldset {
+	border: 3px solid var(--color1);
+	border-radius: 8px;
+
+}
+form label {
+	display: block;
+	padding: .75rem;
+	font-size: 1.2rem;
+}
+form legend {
+	font-size: 1.4rem;
+	padding: .2rem;
+}
+
 label input{
 	display: block;
+	color: var(--color2);
+	font-size: 1rem;
+	border: 2px solid var(--color2);
+	border-radius: 4px;
+    padding: .5rem;
+	width: 90%;
+    max-width: 20rem;
+	background-color: var(--color3);
+
 }
 
 #r {
-	width: 250px;
-	margin-bottom: 0;
-	padding-left: 20px;
+	width: 20rem;
+	margin-left: .75rem;
+
+	/* margin-bottom: 0; */
 }
 
 #rangevalue {
-	font-size: 2rem;
-	color: navy;
+	margin-left: .75rem;
+	font-size: 1.5rem;
 }
 
 #rangevalues {
 	display: flex;
-	margin: 0 0 0 25px;
-	width: 260px;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	width: 21rem;
+
 }
 
 #rangevalues option {
 	flex: 1 1 auto;
+
+}
+.submitBtn {
+    background-color: var(--color2);
+    color: white;
+    font-size:1.3rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+	margin: 10px 2rem;
+	font-weight: bolder;
+}
+#record {
+	color: var(--color2);
+	margin: 0 auto;
+	padding: 3rem;
+	text-align: center;
+	max-width: 60%;
+	background-color: white;
 }
