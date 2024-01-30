@@ -3,9 +3,16 @@
 	--color2: #1c0258;
 	--color3: #bdb9e780;
 }
+#formmessage {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2rem;
+	font-size: larger;
+	font-weight: bolder;
+}
 
 form {
-	margin: 2rem auto;
+	margin: 1rem auto;
 	max-width: 80%;
 	color: #1c0258;
 	font-weight: bolder;
