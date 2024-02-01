@@ -19,12 +19,14 @@ function checkSame() {
     }
 }
 
-const rating = document.getElementById("rating");
+//start of rating script
+
+const rangevalue = document.getElementById("rangevalue");
 const range = document.getElementById("r");
 
 // RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
+range.addEventListener("change", displayRatingValue);
+range.addEventListener("input", displayRatingValue);
 
 
 function displayRatingValue() {

@@ -52,15 +52,15 @@
                 <fieldset>
                     <legend>Business Information</legend>
                     <label class="top">Business/Organization Name* <input type="text" id="bname" name="bname" required></label>
-                    <label class="top">Description <textarea name="description" id="description" cols="21" rows="4"></textarea>
+                    <label class="top">Description <textarea name="description" id="description" cols="21" rows="4"></textarea></label>
                 </fieldset>
     
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label class="sbs"><input type="radio" id="membership" name="membership" value="np"> Non-Profit Membership</label>
-                    <label class="sbs"><input type="radio" id="membership" name="membership" value="bronze"> Bronze Membership</label>
-                    <label class="sbs"><input type="radio" id="membership" name="membership" value="silver"> Silver Membership</label>
-                    <label class="sbs"><input type="radio" id="membership" name="membership" value="gold"> Gold Membership</label>
+                    <label class="sbs"><input type="radio" id="np" name="membership" value="np"> Non-Profit Membership</label>
+                    <label class="sbs"><input type="radio" id="bronze" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" id="silver" name="membership" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" id="gold" name="membership" value="gold"> Gold Membership</label>
                     
                 </fieldset>
     
@@ -75,7 +75,7 @@
             <h3>Membership Benefits</h3>
             <dl>
                 <dt>All Members Receive:</dt>
-                <br>
+                <dd></dd>
                 <dd>Exclusive Discounts</dd>
                 <dd>Listing in Directory</dd>
                 <dd>Weekly emails</dd>
@@ -85,35 +85,36 @@
             <p>Expand membership levels for additional benefits and annual membership fees.</p>
                 
             <button class="accordion">Non-Profit Membership</button>
-            <div class="panel">
+
+            <ul class="panel">
                 <li>No annual membership fee.</li>
                 <li>Up to 2 hours of consultation services.</li>
                 <li>Can submit up to 4 items of news or events anually.</li>
                 <li>1 Member spotlight</li>
                 <li>3 Networking Introductions</li>
-            </div>
+            </ul>
 
             <button class="accordion">Bronze Membership</button>
-            <div class="panel">
+            <ul class="panel">
                 <li>$100 annual membership fee.</li>
                 <li>Up to 3 hours of consultation services.</li>
                 <li>Can submit up to 6 items of news or events anually.</li>
                 <li>2 Member spotlight</li>
                 <li>5 Networking Introductions</li>
-            </div>
+            </ul>
 
             <button class="accordion">Silver Membership</button>
-            <div class="panel">
+            <ul class="panel">
                 <li>$200 annual membership fee.</li>
                 <li>Up to 4 hours of consultation services.</li>
                 <li>Can submit up to 8 items of news or events anually.</li>
                 <li>4 Member spotlight</li>
                 <li>8 Networking Introductions</li>
                 <li>2 Ads in weekly email distribution</li>
-            </div>
+            </ul>
 
             <button class="accordion">Gold Membership</button>
-            <div class="panel">
+            <ul class="panel">
                 <li>$300 annual membership fee.</li>
                 <li>Up to 6 hours of consultation services.</li>
                 <li>Can submit up to 8 items of news or events anually.</li>
@@ -121,7 +122,7 @@
                 <li>10 Networking Introductions</li>
                 <li>4 Ads in weekly email distribution</li>
                 <li>Logo prominence online</li>
-            </div>
+            </ul>
         </div>
 
        

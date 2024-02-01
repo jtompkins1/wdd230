@@ -47,11 +47,13 @@
 
                 <label>Confirm Password* <input type="password" id="password2" name="password2" required></label>
 
-                <label>Enter a valid email address* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+                <label>Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._+-%]+@byui\.edu$" title="Please enter a valid email address i.e someone@byui.edu" placeholder="someone@buyi.edu"></label>
+
+
 
                 <label for="r">Rate Page</label>
 
-                <div id="rating">0</div>
+                <div id="rangevalue">0</div>
 
                 <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
 
