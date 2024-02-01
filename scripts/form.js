@@ -32,3 +32,21 @@ range.addEventListener("input", displayRatingValue);
 function displayRatingValue() {
     rangevalue.innerHTML = range.value;
 }
+
+
+const emailInput = document.querySelector("#email");
+
+emailInput.addEventListener("focusout", checkEmail);
+
+function checkEmail() {
+    const email = emailInput.value;
+    if (!email.endsWith("@byui.edu")) {
+        message.textContent = "❗Enter a valid @byui.edu email address!";
+        
+        message.style.visibility = "show";
+
+    } else {
+        message.style.display = "none";
+
+    }
+}
