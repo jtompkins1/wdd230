@@ -3,6 +3,7 @@
 	--color2: #1c0258;
 	--color3: #bdb9e780;
 }
+
 #formmessage {
 	margin: 0 auto;
 	text-align: center;
@@ -12,11 +13,15 @@
 }
 
 form {
+	/* display: flex;
+	flex-direction: column; */
+
 	margin: 1rem auto;
 	max-width: 80%;
 	color: #1c0258;
 	font-weight: bolder;
 	background-color: white;
+
 }
 form fieldset {
 	border: 3px solid var(--color1);
