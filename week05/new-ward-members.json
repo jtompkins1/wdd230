@@ -1,0 +1,28 @@
+{
+    "familyName" : "Tompkins",
+    "moveInDate" : "2009-01-31",
+    "familyNum" : 4,
+    "visited" : true,
+    "members" : [
+        {
+            "name" : "Grant Tompkins",
+            "gender" : "male",
+            "birthdate" : "1984-10-02"
+        },
+        {
+            "name" : "Jennifer Tompkins",
+            "gender" : "female",
+            "birthdate" : "1983-09-28"
+        },
+        {
+            "name" : "Elliott Tompkins",
+            "gender" : "male",
+            "birthdate" : "2008-04-27"
+        },
+        {
+            "name" : "Leonardo Tompkins",
+            "gender" : "male",
+            "birthdate" : "2010-10-07"
+        }
+    ] 
+}
