@@ -173,6 +173,7 @@ li {
 .info {
     padding: 1rem;
     font-size: 1.2rem;
+    text-align: center;
 }
 footer {
     margin: 0 auto;
