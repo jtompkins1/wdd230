@@ -36,8 +36,19 @@ const displayProphets = (prophets) => {
         //create an img element and store it in a variable named "portrait",
         let portrait = document.createElement("img")
 
+        //birthdate Element
+        let birthdate = document.createElement("p");
+        //birthplace Element
+        let birthplace = document.createElement("p");
+
         //populate the heading element with the prophet's full name using a template string to build the full name,
         fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+
+        birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
+        birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
+
+
+        //birthdate Element
 
         //build the image elements using setAtrribute
         portrait.setAttribute("src", prophet.imageurl);
@@ -48,7 +59,11 @@ const displayProphets = (prophets) => {
 
         //Using appendChild() on the section element named "card", add the heading and image elements one at a time.
         card.appendChild(fullName);
+        card.appendChild(birthdate);
+        card.appendChild(birthplace);
         card.appendChild(portrait);
+        
+
 
         //add the section card to the "cards" div that was selected at the beginning of the script file
         cards.appendChild(card);
