@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogers Chamber of Commerce - Directory</title>
+    <meta name="description" content="City of Rogers Arkansas Chamber of Commerce">
+    <meta name="author" content="Jennifer Tompkins">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Rogers Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.arkansas.com/sites/default/files/2018-11/War_Eagle_Mill_Rogers_8146.jpg">
+    <meta property="og:url" content="https://jtompkins1.github.io/wdd230/chamber.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 class="header-msg">Rogers Chamber of Commerce</h1>
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <div><a class="active" href="https://jtompkins1.github.io/wdd230/chamber/index.html" title="Home">Home</a></div>
+        <div><a  href="https://jtompkins1.github.io/wdd230/chamber/discover.html" title="Discover">Discover</a></div>
+        <div><a href="#">Directory</a></div>
+        <div><a href="https://jtompkins1.github.io/wdd230/chamber/join.html">Join</a></div>
+    </nav>
+    <main>
+        <h2>Member Directory</h2>
+        <div id="cards">
+
+        </div>
+        <section id="sidebar">
+            <p><span id="visit-msg"></span></p>
+
+            <h3>Rogers, <br>Arkansas</h3>
+
+            <p><span id="today"></span><br> <span id="time"></span> CST</p>
+
+            <h3>Weather</h3>
+            <p>Cold!</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="footer1">&copy; <span id="year"></span> Rogers Chamber of Commerce</p>
+        <a id="contact" href="">Contact Us</a>
+        <!-- <p id="contact">Contact Us</p> -->
+        <p id="project">Project page created by Jennifer Tompkins - WDD230</p>
+        <p id="last">Last Modified: <span id="lastModified"></span></p>  
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/members.js"></script>
+    
+</body>
+</html>

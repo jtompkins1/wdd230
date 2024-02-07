@@ -31,10 +31,10 @@ const displayProphets = (prophets) => {
         let card = document.createElement("section");
 
         //create an h2 element and store it in a variable named "fullName"
-        let fullName = document.createElement("h2")
+        let fullName = document.createElement("h2");
 
         //create an img element and store it in a variable named "portrait",
-        let portrait = document.createElement("img")
+        let portrait = document.createElement("img");
 
         //birthdate Element
         let birthdate = document.createElement("p");

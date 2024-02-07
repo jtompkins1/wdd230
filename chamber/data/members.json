@@ -1,0 +1,76 @@
+{
+    "members" : [
+        {
+            "companyName" : "Souls Harbor",
+            "address" : "1206 N 2nd St. Rogers, AR 72756",
+            "phone" : "(479)631-7878",
+            "url" : "https://www.soulsharbornwa.org/services",
+            "img" : "souls.webp",
+            "level" : "Bronze",
+            "category" : "Lawn Care",
+            "joinDate" : 2012
+        },
+        {
+            "companyName" : "Landmark",
+            "address" : "2003 S Horsebarn Rd, Rogers, AR 72758",
+            "phone" : "(479)636-3769",
+            "url" : "https://www.landmarkcpas.com/",
+            "img" : "logo-landmark.webp",
+            "level" : "Silver",
+            "category" : "Accounting",
+            "joinDate" : 2019
+        },
+        {
+            "companyName" : "Smile Shoppe",
+            "address" : "5518 Walsh Ln. Rogers, AR 72758",
+            "phone" : "(479) 631-6377",
+            "url" : "https://smile-shoppe.com",
+            "img" : "smileshoppe-logo.webp",
+            "level" : "Gold",
+            "category" : "Dentist",
+            "joinDate" : 2004
+        },
+        {
+            "companyName" : "Eureka Pizza",
+            "address" : "2119 W Walnut St. Rogers, AR 72756",
+            "phone" : "(479)621-9999",
+            "url" : "https://www.eurekapizza.com/",
+            "img" : "eureka.webp",
+            "level" : "Gold",
+            "category" : "Restaurant",
+            "joinDate" : 2013
+        },
+        {
+            "companyName" : "VIP Hair Co",
+            "address" : "203 W. Wood St. Rogers, AR 72756",
+            "phone" : "(479) 295-9553",
+            "url" : "https://www.viphaircompany.com/",
+            "img" : "vip.webp",
+            "level" : "Bronze",
+            "category" : "Hair Salon",
+            "joinDate" : "2023"
+        },
+        {
+            "companyName" : "Neighborhood Market",
+            "address" : "1819 S 8th St. Rogers, AR 72756",
+            "phone" : "(479)633-0772",
+            "url" : "https://www.walmart.com/store/3479-rogers-ar",
+            "img" : "nm.webp",
+            "level" : "Gold",
+            "category" : "Grocery Store",
+            "joinDate" : 2002
+        },
+        {
+            "companyName" : "Pet Supplies Plus",
+            "address" : "4327 S. Pleasant Crossing Blvd. Rogers, AR 72756",
+            "phone" : "(479) 636-0526",
+            "url" : "https://www.petsuppliesplus.com/",
+            "img" : "PSP.webp",
+            "level" : "Silver",
+            "category" : "Pet Care",
+            "joinDate" : 2016
+        }
+    ]
+
+        
+}
