@@ -425,7 +425,7 @@ dl {
 }
 #cards section a {
     margin: 0px auto;
-    padding: 1cqmin;
+    padding: 1rem;
     grid-column: 1/3;
     text-align: center;
     justify-self: center;
