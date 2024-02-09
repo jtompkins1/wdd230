@@ -31,7 +31,12 @@ const displayLinks = (weeks) => {
             task.textContent = link.title;
             task.setAttribute("href", baseURL + link.url)
 
+            let divider = document.createElement("span");
+            divider.textContent = " | ";
+
+
             weekNumbers.appendChild(task);
+            weekNumbers.appendChild(divider);
 
         })
         

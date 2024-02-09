@@ -7,12 +7,10 @@ body {
 h1, h2 {
     text-align: center;
     margin: 0 auto;
-
 }
 h1 {
     white-space: nowrap;
     font-size: 1.2rem;
-
 }
 h2 {
     color: white;
@@ -135,14 +133,12 @@ nav .active {
     background-color: rgba(70, 9, 58, 0.3); 
     border-radius: 7px;
     white-space: nowrap;
-
 }
 .hero-img-title {
     color: white;
     font-size: 1.1rem;
     padding: 1rem;
 }
-
 .card-container {
     margin: 0 auto;
     color: black;
@@ -154,7 +150,6 @@ nav .active {
     margin: 1rem;
     border-radius: 10px;
     box-shadow: 6px 6px 10px black;
-
 }
 .card-header {
     background-color: rgb(1, 95, 130);
@@ -162,28 +157,13 @@ nav .active {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
-/* .card a {
-    padding: .3rem;
-}
-li {
-    list-style-type: none;
-    font-size: 1rem;
-    padding: 0.5rem;
-} */
-
-/* #activities {
-    display: flex;
-    flex-direction: row;
-} */
 #activities a {
     padding: .3rem;
-
 }
 #activities li{
     list-style-type: none;
     font-size: 1rem;
     padding: 0.5rem;
-
 }
 .info {
     padding: 1rem;
@@ -199,7 +179,6 @@ li {
 figure {
     margin: 0 auto;
 }
-
 footer {
     margin: 0 auto;
     display: block;
@@ -217,12 +196,10 @@ nav, footer{
     justify-content:center;
     max-height: 450px;
     padding: 1rem;
-
 }   
 #map iframe {
     max-width: 100%;
     max-height: 450px;
-    /* max-height: 100%; */
 }
 
 
