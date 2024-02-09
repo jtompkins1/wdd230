@@ -162,19 +162,44 @@ nav .active {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
-.card a {
+/* .card a {
     padding: .3rem;
 }
 li {
     list-style-type: none;
     font-size: 1rem;
     padding: 0.5rem;
+} */
+
+/* #activities {
+    display: flex;
+    flex-direction: row;
+} */
+#activities a {
+    padding: .3rem;
+
+}
+#activities li{
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+
 }
 .info {
     padding: 1rem;
     font-size: 1.2rem;
     text-align: center;
 }
+#weather {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+figure {
+    margin: 0 auto;
+}
+
 footer {
     margin: 0 auto;
     display: block;
