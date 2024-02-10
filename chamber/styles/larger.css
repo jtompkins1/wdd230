@@ -49,6 +49,13 @@
         flex-direction: column;
         max-width: 150px;;
     }
+
+    .weather {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
     #benefits {
         grid-column: 2/3;
         grid-row: 1/2;
