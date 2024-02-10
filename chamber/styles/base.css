@@ -180,7 +180,29 @@ p {
     text-align: center;
     padding: 1rem;
 
+}
+#weather {
+    padding: .5rem;
+    background-color: white;
+    color: var(--main-color);
+    border-radius: 10px;
 
+}
+figure img {
+    margin: 0 auto;
+}
+#forecast {
+    margin-top: 1rem;
+    background-color: white;
+    color: var(--main-color);
+    padding: .5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+th, td {
+    font-size: .8rem;
+    text-align: center;
 }
 
 footer {

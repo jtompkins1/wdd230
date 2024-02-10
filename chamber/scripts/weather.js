@@ -19,7 +19,7 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);//for testing
+            //console.log(data);//for testing
             displayWeatherResults(data); //uncomment after testing ok
 
 
@@ -34,7 +34,7 @@ async function apiFetch() {
         const response = await fetch(forecastUrl);
         if (response.ok) {
             const forecastData = await response.json();
-            console.log(forecastData);//for testing
+            //console.log(forecastData);//for testing
             displayForecastResults(forecastData); //uncomment after testing ok
 
 
@@ -62,12 +62,10 @@ function displayWeatherResults(data) {
 
 function displayForecastResults(forecastData) {
     //get timestamp
-    let tsNow = forecastData.list[0].dt;
     let ts1 = forecastData.list[5].dt;
     let ts2 = forecastData.list[13].dt;
     let ts3 = forecastData.list[21].dt;
     
-    todayWeather.textContent = getDayDate(tsNow);
     day1.textContent = getDayDate(ts1);
     day2.textContent = getDayDate(ts2);
     day3.textContent = getDayDate(ts3);
