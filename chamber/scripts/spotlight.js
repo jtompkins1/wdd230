@@ -1,0 +1,2 @@
+//On the home page use your JSON data source of members to supply two to three 'spotlight' advertisements for the chamber members who have silver or gold membership levels only.
+//The home page should randomly load different, qualified members.
