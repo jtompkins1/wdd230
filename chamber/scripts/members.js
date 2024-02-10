@@ -1,4 +1,4 @@
-const cards = document.querySelector("#cards");
+const cards = document.querySelector("article");
 
 async function getMemberInfo () {
     const response = await fetch("data/members.json");

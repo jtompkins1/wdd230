@@ -382,7 +382,7 @@ dl {
   }
 
   /* start of directory styles */
-  #cards {
+.grid {
     margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -390,7 +390,7 @@ dl {
     padding: .25rem;
     max-width: 98%;
   }
-  #cards section {
+.grid section {
     display: grid; 
     grid-template-columns: 150px auto;
     /* grid-template-rows: auto auto auto; */
@@ -405,7 +405,7 @@ dl {
     height: auto;
     box-shadow: 10px 10px 8px black;
   }
-  #cards section img {
+.grid section img {
     grid-column: 1/2;
     margin: auto;
     max-width: 80%;
@@ -413,7 +413,7 @@ dl {
     height: auto;
     place-self: center;
 }
-#cards section p {
+.grid section p {
     grid-column: 2/3;
     /* grid-row: 2/3; */
     padding: .5rem;
@@ -423,7 +423,7 @@ dl {
     justify-self: center;
 
 }
-#cards section a {
+.grid section a {
     margin: 0px auto;
     padding: 1rem;
     grid-column: 1/3;
@@ -431,7 +431,7 @@ dl {
     justify-self: center;
 
 }
-#cards section h3{
+.grid section h3{
     color: var(--main-color);
     grid-column: 1/3;
     text-align: center;
@@ -442,4 +442,47 @@ dl {
 }
 #directory-title {
     margin-bottom: 0;
+}
+#buttons {
+    margin: 0 auto;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#grid, #list {
+    border: 4px solid black;
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-size:1.2rem;
+    background-color: var(--sub-color);
+    padding: 10px 25px;
+    border-radius: 7px;
+    margin: .3rem;
+
+}
+
+#grid:hover {
+    color: white;
+    background-color: black;
+}
+#list:hover {
+    color: white;
+    background-color: black;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.list section {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid black;
+
+}
+.list img {
+    display: none;
 }
