@@ -79,8 +79,53 @@
 
             <p><span id="today"></span><br> <span id="time"></span> CST</p>
 
-            <h3>Weather</h3>
-            <p>Cold!</p>
+            <div id="weather">
+                <h3>Weather</h3>
+                <section>
+                    <p id="todayWeather"></p>
+                    <figure>
+                        <img id="weather-icon" src="#" alt="">
+                    </figure>
+                    <p><span id="current-temp"></span></p>
+                    <p><span id="desc"></span></p>
+                </section>
+
+                <table>
+                    <thead>
+                        <tr colspan="2" scope="colgroup">3-Day Forecast</tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="day1"></th>
+                            <td id="forecast1"></td>
+                        </tr>
+                        <tr>
+                            <th id="day2"></th>
+                            <td id="forecast2"></td>
+                        </tr>
+                        <tr>
+                            <th id="day3"></th>
+                            <td id="forecast3"></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+<!-- 
+                <section>
+                    <h4>3-Day Forecast</h4>
+                    <p id="day1"></p>
+                    <p id="forecast1"></p>
+                    <p id="day2"></p>
+                    <p id="forecast2"></p>
+                    <p id="day3"></p>
+                    <p id="forecast3"></p>
+                </section> -->
+
+
+            </div>
+
+
         </section>
 
     </main>
@@ -94,6 +139,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/weather.js"></script>
     
 </body>
 </html>
