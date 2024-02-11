@@ -114,6 +114,15 @@
     .imgages-container img {
         transition: transform 0.3s ease;
     }
+    #sl-container {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        padding: .25rem;
+        max-width: 90%;
+      }
+   
+    /* end of spotlight styles */
 }
 
 
