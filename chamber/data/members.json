@@ -48,7 +48,7 @@
             "img" : "vip.webp",
             "level" : "Bronze",
             "category" : "Hair Salon",
-            "joinDate" : "2023"
+            "joinDate" : 2023
         },
         {
             "companyName" : "Neighborhood Market",

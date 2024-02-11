@@ -1,3 +1,4 @@
+//load all members on the directory page
 const cards = document.querySelector("article");
 
 async function getMemberInfo () {
@@ -5,10 +6,10 @@ async function getMemberInfo () {
     const data = await response.json();
 
     //test
-    // console.table(data.members);
-    
+    console.table(data.members);
     displayMembers(data.members);
-}
+
+};
 
 const  displayMembers = (members) => {
     members.forEach((member) => {
@@ -54,3 +55,6 @@ const  displayMembers = (members) => {
 }
 
 getMemberInfo();
+
+
+
