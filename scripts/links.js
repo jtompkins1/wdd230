@@ -29,7 +29,7 @@ const displayLinks = (weeks) => {
             let task = document.createElement("a");
 
             task.textContent = link.title;
-            task.setAttribute("href", baseURL + link.url)
+            task.setAttribute("href", link.url)
 
             let divider = document.createElement("span");
             divider.textContent = " | ";

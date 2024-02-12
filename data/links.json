@@ -4,11 +4,11 @@
             "week" : "Week 1",
             "links" : [
                 {
-                    "url" : "week01/holygrail.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week01/holygrail.html",
                     "title" : "HG Layout"
                 },
                 {
-                    "url" : "week01/media-query",
+                    "url" : "https://jtompkins1.github.io/wdd230/week01/media-query",
                     "title" : "Media Query"
                 },
                 {
@@ -22,7 +22,7 @@
             "week" : "Week 2",
             "links" : [
                 {
-                    "url" : "week02/design.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week02/design.html",
                     "title" : "Design"
                 },
                 {
@@ -30,7 +30,7 @@
                     "title" : "Menu Code Pen"
                 },
                 {
-                    "url" : "week02/bom.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week02/bom.html",
                     "title" : "BOM"
                 }
             ]
@@ -40,19 +40,19 @@
             "week" : "Week 3",
             "links" : [
                 {
-                    "url" : "week03/images/landscape.webp",
+                    "url" : "https://jtompkins1.github.io/wdd230/week03/images/landscape.webp",
                     "title" : "WebP"
                 },
                 {
-                    "url" : "week03/lazyload.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week03/lazyload.html",
                     "title" : "Lazy"
                 },
                 {
-                    "url" : "week03/responsive-images.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week03/responsive-images.html",
                     "title" : "scrset"
                 },
                 {
-                    "url" : "week03/bom.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week03/bom.html",
                     "title" : "Local Storage"
                 }
             ]
@@ -66,15 +66,15 @@
                     "title" : "Pseudo Class"
                 },
                 {
-                    "url" : "week04/images/combinators.png",
+                    "url" : "https://jtompkins1.github.io/wdd230/week04/images/combinators.png",
                     "title" : "Combinators"
                 },
                 {
-                    "url" : "week04/tablebuild.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week04/tablebuild.html",
                     "title" : "Table"
                 },
                 {
-                    "url" : "week04/index.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week04/index.html",
                     "title" : "Form"
                 }
             ]
@@ -88,15 +88,15 @@
                     "title" : "Pseudo Element"
                 },
                 {
-                    "url" : "week05/new-ward-members.json",
+                    "url" : "https://jtompkins1.github.io/wdd230/week05/new-ward-members.json",
                     "title" : "JSON"
                 },
                 {
-                    "url" : "week05/prophets.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week05/prophets.html",
                     "title" : "Prophets"
                 },
                 {
-                    "url" : "week05/weather.html",
+                    "url" : "https://jtompkins1.github.io/wdd230/week05/weather.html",
                     "title" : "Weather"
                 }
             ]
