@@ -41,15 +41,14 @@
     #sidebar {
         grid-column: 2/3;
         grid-row: 1/5;
-        padding: 1rem;
         background-color: #033e87;
         color: white;
         text-align: center;
         display: flex;
         flex-direction: column;
-        max-width: 150px;;
-    }
+        max-width: 150px;
 
+    }
     .weather {
         display: flex;
         flex-direction: column;
