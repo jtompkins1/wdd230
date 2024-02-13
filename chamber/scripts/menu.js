@@ -6,37 +6,43 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
-            var acc = document.getElementsByClassName("accordion");
-            var i;
+//start of join accordian
 
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
-                    /* Toggle between adding and removing the "active" class,
-                    to highlight the button that controls the panel */
-                    this.classList.toggle("active1");
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-                    /* Toggle between hiding and showing the active panel */
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                    } else {
-                    panel.style.display = "block";
-                    }
-                });
-            }
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active1");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+};
 
 //start of directory toggle grid list view
 
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display1 = document.querySelector("article");
 
 gridButton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
+    display1.classList.add("grid");
+    display1.classList.remove("list");
 });
 
 listButton.addEventListener("click", () => {
-    display.classList.add("list");
-    display.classList.remove("grid");
+    display1.classList.add("list");
+    display1.classList.remove("grid");
 });
+
+
+
+
