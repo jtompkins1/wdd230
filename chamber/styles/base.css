@@ -25,6 +25,32 @@ header {
     font-family: var(--main-font);
     padding: 2rem;
 }
+.banner {
+    display: flex;
+    height: 30px;
+    background-color: white;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.banner-msg {
+    font-family: var(--sub-font);
+    text-align: center;
+}
+.banner-close {
+    margin-left: .5rem;
+    cursor: pointer;
+    background-color: red;
+    border: 1.5px solid red;
+    border-radius: 4px;
+}
+#btn-cls {
+    font-family: var(--sub-font);
+    color: white;
+}
+
 #menu {
 	font-size: 1.5rem;
 	border: 1px solid rgba(0,0,0,.3);
