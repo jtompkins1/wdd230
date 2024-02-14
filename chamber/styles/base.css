@@ -195,26 +195,29 @@ p {
  /* start of spotlightstyles */
 
 #spotlights {
+    display: block;
     background-color: black;
     color: white;
-    grid-row: 4/5;
     text-align: center;
     padding: 1rem;
+
 }
 
 #sl-container {
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
     padding: .25rem;
     max-width: 80%;
+    display: flex;
+    flex-direction: column;
+
   }
 #sl-container section {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border: 3px solid gold;
     border-radius: 7px;
-    width: auto;
+    /* width: auto; */
     margin: 0.5rem;
     padding: 0.35rem;
     text-align: center;
@@ -223,7 +226,6 @@ p {
 #sl-container section img {
     margin: auto;
     max-width: 80%;
-    grid-row: 4/5;
     height: auto;
     place-self: center;
 }
