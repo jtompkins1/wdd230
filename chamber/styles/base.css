@@ -28,12 +28,13 @@ header {
 }
 .banner {
     display: flex;
-    height: 30px;
+    height: auto;
     background-color: white;
     color: red;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding: 5px;
 
 }
 .banner-msg {
