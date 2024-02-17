@@ -345,6 +345,10 @@ p {
     border: solid 1px black;
     margin: 1rem auto;
 }
+#title-home {
+    background-color: black;
+    color: white;
+}
 th, td {
     font-size: .8rem;
     text-align: center;
