@@ -38,10 +38,17 @@
         <div><a href="https://jtompkins1.github.io/wdd230/chamber/directory.html">Directory</a></div>
         <div><a href="https://jtompkins1.github.io/wdd230/chamber/join.html">Join</a></div>
     </nav>
-    <main>
+    <main id="main-home">
         <section class="hero">
 
+            <!-- <picture class="hero-img">
+                <source media="(max-width 750px)" srcset="images/rogers750x499.jpg">
+                <source media="(max-width: 1000px)" srcset="images/rogers.webp">
+                <img src="images/rogers.webp" alt="War Eagle Mill" loading="lazy" width="1000" height="665">
+
+            </picture> -->
             <img class="hero-img" src="images/rogers.webp" alt="War Eagle Mill" loading="lazy" width="1000" height="665">
+
 
             <div class="hero-content">
             
@@ -53,27 +60,38 @@
 
                </p>
 
+               
 
             </div>
         
         </section>
+        <section id="join-event-cont">
+            <section id="join">
+                <div class="join-content">
+                    <h2>Become a Member!</h2>
+                    <script>
+                        // JavaScript function to redirect to a URL
+                        function redirectToUrl(url) {
+                          window.location.assign(url);
+                        }
+                      </script>
+                    <button type="button" id="join-button" onclick="redirectToUrl('https://jtompkins1.github.io/wdd230/chamber/join.html')"> Join</button>
+                </div>
+            </section>
+    
+    
+    
+            <section id="event-cont">
+                <div id="events">
+                    <h2>Events</h2>
+                    <p>Visitors and members are invited to the Rogers Chamber of Commerce Meet and Greet! <br> When: 1st Wednesday of each month at 7pm.</p>
+    
+                </div>
+    
+            </section>
 
-        <section id="join">
-            <div class="join-content">
-                <h2>Become a Member!</h2>
-                <script>
-                    // JavaScript function to redirect to a URL
-                    function redirectToUrl(url) {
-                      window.location.assign(url);
-                    }
-                  </script>
-                <button type="button" id="join-button" onclick="redirectToUrl('https://jtompkins1.github.io/wdd230/chamber/join.html')"> Join</button>
-            </div>
         </section>
-        <section id="events">
-            <h2>Events</h2>
-            <p>Visitors and members are invited to the Rogers Chamber of Commerce Meet and Greet! <br> When: 1st Wednesday of each month at 7pm.</p>
-        </section>
+       
 
         <section id="spotlights">
             <h2>Member Spotlights</h2>
@@ -83,14 +101,14 @@
         </section>
 
 
-        <section id="sidebar">
-            <section id="msg-container">
+        <section id="home-weather">
+            <section id="home-msg-container">
                 <p><span id="visit-msg"></span></p>
             </section>
 
-            <div class="weather">
+            <div class="weather-cont-home">
                 <h3>Local Weather</h3>
-                <section id="weather">
+                <section id="weather-home">
                     <p><span id="today"></span><br> <span id="time"></span> CST</p>
                     <p><span id="current-temp"></span></p>
                     <figure>
@@ -98,7 +116,7 @@
                     </figure>
                     <p><span id="desc"></span></p>
                 </section>
-                <section id="forecast">
+                <section id="forecast-home">
                     <table>
                         <thead>
                             <tr>

@@ -3,7 +3,7 @@
 @media (min-width: 640px) {
 
 
-    body {
+    body, main {
         max-width: 1200px;
 
     }
@@ -35,10 +35,18 @@
 	}
     main {
         display: grid;;
-        grid-template-columns: 1fr auto;
+        grid-template-columns: auto 200px;
         grid-template-rows: auto auto auto 1fr;
-        justify-content: end;
+        max-width: 1200px;
+        margin: 0 auto;
+
     }
+    #join-event-cont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
     #sidebar {
         grid-column: 2/3;
         grid-row: 1/5;
@@ -47,7 +55,7 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        max-width: 150px;
+        max-width: 200px;
 
     }
     .weather {
@@ -71,40 +79,6 @@
         grid-template-columns: auto 1fr;
         margin: 2rem;
     }
-    #join {
-        grid-row: 2/3;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-    }
-    .join-content {
-        text-align: center;
-
-    }
-    #join-button {
-        border: 5px solid black;
-        color: #033e87;
-        font-family: 'Days One', sans-serif;
-        font-size:1.5rem;
-        background-color: #D8D4D8;
-        padding: 15px 30px;
-        border-radius: 7px;
-    }
-
-    #join-button:hover {
-        color: white;
-        background-color: black;
-
-    }
-    #events {
-        grid-row: 3/4;
-
-    }
-
-    #spotlights {
-        grid-row: 4/5;
-    }
     /* start of discover page styles */
 
     .images-container img:hover {
@@ -127,6 +101,13 @@
 
    }
     /* end of spotlight styles */
+   .weather-cont-home {
+
+        max-width: 50%;
+   }
+   #home-msg-container {
+    max-width: 50%;
+   }
 }
 
 
