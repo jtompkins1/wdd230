@@ -48,7 +48,7 @@
         margin: 0 auto;
     }
 
-    #sidebar {
+    .sidebar {
         grid-column: 2/3;
         grid-row: 1/5;
         background-color: #033e87;
@@ -59,7 +59,7 @@
         max-width: 200px;
 
     }
-    .weather {
+    .weather-container {
         display: flex;
         flex-direction: column;
         text-align: center;
