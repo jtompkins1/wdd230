@@ -26,14 +26,11 @@ if (daysSinceVisit !== 0) {
     }
 
 //set item date of current visit to local storage
-localStorage.setItem("visitDate-ls", theDateToday);
+localStorage.setItem("visitDate-ls", thisVisit);
 
 
 //sidebar date and time
-//milliseconds per day
-const msToDays = 86400000;
-const theDateToday = new Date();
 
-document.querySelector("#today").textContent = theDateToday.toDateString();
+document.querySelector("#today").textContent = thisVisit.toDateString();
 
-document.querySelector("#time").textContent = theDateToday.toLocaleTimeString();
+document.querySelector("#time").textContent = thisVisit.toLocaleTimeString();
