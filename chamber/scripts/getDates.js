@@ -41,6 +41,5 @@ document.querySelector("#today").textContent = theDateToday.toDateString();
 
 document.querySelector("#time").textContent = theDateToday.toLocaleTimeString();
 
-//hidden input timestamp for join form
-document.querySelector("#timestamp").textContent = theDateToday;
+
 
