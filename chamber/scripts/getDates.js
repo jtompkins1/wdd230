@@ -7,11 +7,7 @@ document.querySelector("#lastModified").textContent = new Date(document.lastModi
 const msToDays = 86400000;
 const theDateToday = new Date();
 
-//sidebar date and time
 
-document.querySelector("#today").textContent = theDateToday.toDateString();
-
-document.querySelector("#time").textContent = theDateToday.toLocaleTimeString();
 
 
 

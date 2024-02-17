@@ -27,3 +27,10 @@ if (daysSinceVisit !== 0) {
 
 //set item date of current visit to local storage
 localStorage.setItem("visitDate-ls", theDateToday);
+
+
+//sidebar date and time
+
+document.querySelector("#today").textContent = theDateToday.toDateString();
+
+document.querySelector("#time").textContent = theDateToday.toLocaleTimeString();
