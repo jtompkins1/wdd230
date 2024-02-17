@@ -30,6 +30,9 @@ localStorage.setItem("visitDate-ls", theDateToday);
 
 
 //sidebar date and time
+//milliseconds per day
+const msToDays = 86400000;
+const theDateToday = new Date();
 
 document.querySelector("#today").textContent = theDateToday.toDateString();
 
