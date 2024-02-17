@@ -447,6 +447,7 @@ footer {
     overflow: hidden;
     align-items: center;
     padding-top: 2rem;
+    text-align: center;
 }
 
 .imgages-container p {
@@ -457,6 +458,10 @@ footer {
 .images-container img {
     box-shadow: 10px 10px 8px black;
     border-radius: 10px;
+}
+hr {
+    width: 80%;
+    border: 1.5px solid var(--main-color);
 }
 /* start of form page styles */
 #join-form{
