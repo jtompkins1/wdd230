@@ -6,7 +6,7 @@ async function getMemberInfo () {
     const data = await response.json();
 
     //test
-    console.table(data.members);
+    //console.table(data.members);
     displayMembers(data.members);
 
 };
